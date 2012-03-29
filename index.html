@@ -1,30 +1,20 @@
-<?php
-	header("Cache-Control: no-store, no-cache, must-revalidate");
-?>
-<HTML>
-	<HEAD>
-		<TITLE>
+<html>
+	<head>
+		<title>
 		Artisan Shop by pelaillo
-		</TITLE>
-	</HEAD>
-	<BODY>
+		</title>
+	</head>
+	<body>
 <p>Prueba de contenido</p>
-<?php
-	if (!$tema = @file_get_contents("./contenido.php")) {
-		$tema = "<li><a href=\"//">INICIO</a></li>";
-		$tema .= "<li><a href=\"//ayuda/">AYUDA</a></li>";
-	}
-	echo $tema;
-?>
-	<TABLE width=100% cellpadding=0 cellspacing=0 border=0>
-		<TR height=18 bgcolor=8084B0>
-		<TD width=30></TD>
-		<TD align=center><SPAN style="font-size:8pt; color: #FFFFFF;">
-		Artisan Shop for the difussion of the art of assembly programming<BR>
-		&reg 2010</FONT>
-		</TD>
-		<TD width=30></TD>
-		</TR>
-	</TABLE>
-	</BODY>
-</HTML>
+	<table width=100% cellpadding=0 cellspacing=0 border=0>
+		<tr height=18 bgcolor=8084B0>
+		<td width=30></td>
+		<td align=center><span style="font-size:8pt; color: #FFFFFF;">
+		Artisan Shop for the difussion of the art of assembly programming<br>
+		&reg 2010</font>
+		</td>
+		<td width=30></td>
+		</tr>
+	</table>
+	</body>
+</html>
