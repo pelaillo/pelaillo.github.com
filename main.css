@@ -1,13 +1,16 @@
-@media all {
-  body {
-  	font-family: "Verdana", "sans-serif";
-  	margin: 0 0 0 0;
-  	background-color: #F8C388;
-  	background-repeat: no-repeat;
-  	background-position: left top;
-  	background-attachment: fixed;
-    width: 100%;
-  }
+body {
+	font-family: "Verdana", "sans-serif";
+	margin: 0 0 0 0;
+	background-image: url(images/A1_SAGS.PNG); 
+	background-color: #F8C388;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+	width: 100%;
+}
+#about {
+	position: absolute;
+	bottom: 0px;
 }
 
 @media screen {
