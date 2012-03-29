@@ -1,0 +1,47 @@
+@media all {
+  body {
+  	font-family: "Verdana", "sans-serif";
+  	margin: 0 0 0 0;
+  	background-color: #F8C388;
+  	background-repeat: no-repeat;
+  	background-position: left top;
+  	background-attachment: fixed;
+    width: 100%;
+  }
+}
+
+@media screen {
+  body {
+  	font-size: 10pt;
+  }
+}
+
+@media print {
+  body {
+  	font-size: 11pt;
+  }
+}
+
+@media all and (min-width: 1001px) {
+  #sidebar ul li a:after {
+    content: " (" attr(data-email) ")";
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+  }
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+  #sidebar ul li a:before {
+    content: "Email: ";
+    font-style: italic;
+    color: #666;
+  }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  #sidebar ul li a {
+    padding-left: 21px;
+    background: url(images/email.png) left center no-repeat;
+  }
+}
