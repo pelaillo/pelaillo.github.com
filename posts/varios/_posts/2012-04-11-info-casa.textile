@@ -1,0 +1,8 @@
+---
+title: Información pública
+layout: static
+---
+
+Información para tener presente.
+
+Puede ser pública porque no representa un riesgo
