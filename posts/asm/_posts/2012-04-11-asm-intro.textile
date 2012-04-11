@@ -1,0 +1,8 @@
+---
+title: Assembly Programming
+layout: post
+---
+
+Assembly for the modern environments using fasm and fasmarm
+
+{% include como-participar.textile %}
