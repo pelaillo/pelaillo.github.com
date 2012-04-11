@@ -9,9 +9,18 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 <body>
-<div id="title">
-	<span id="title-name">Pelares</span><br />
-</div>
+<body>
+  <div id='header' onclick="document.location.href='/';" alt="Ir a la página principal">
+  pelares<br />
+  </div>
+  <div id='sidebar'>
+  	<ul>
+  		<li>Tema 1</li>
+  		<li>Tema 2</li>
+  		<li>Tema 3</li>
+  		<li>Tema 4</li>
+  	</ul>
+  </div>
 <div class=cuerpo>
 <script>
   var url='http://pverde.nodejitsu.com/';
@@ -51,6 +60,9 @@
 	  });
   }
 </script>
+<div id="test">
+	Listo para recibir:
+</div>
 
 {{ content }}
 
